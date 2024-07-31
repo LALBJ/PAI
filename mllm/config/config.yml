@@ -1,0 +1,20 @@
+ModelArgs:
+  model_name_or_path: "/path/to/models/shikra-7b"
+  type: "shikra"
+  cache_dir: null
+  freeze_backbone: false
+  model_max_length: 2048
+  version: "v1"
+  vision_tower: "openai/clip-vit-large-patch14"
+  mm_vision_select_layer: -2
+  pretrain_mm_mlp_adapter: null
+  tune_mm_mlp_adapter: false
+  freeze_mm_mlp_adapter: false
+  mm_use_im_start_end: true
+  image_token_len: 256
+  sep_image_conv_front: false
+
+TrainingArgs:
+  fp16: true
+  bf16: false
+  device: "cuda"
