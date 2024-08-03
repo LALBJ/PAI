@@ -1,14 +1,14 @@
 # Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs (ECCV 2024)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
-[![Arxiv](https://img.shields.io/badge/arXiv-2311.17911-B21A1B)]()
+[![Arxiv](https://img.shields.io/badge/arXiv-2407.21771-B21A1B)](https://arxiv.org/abs/2407.21771)
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
 
 <!-- [![GitHub Stars](https://img.shields.io/github/stars/shikiw/OPERA?style=social)](https://github.com/shikiw/OPERA/stargazers) -->
 
 This repository provides the official PyTorch implementation of the following paper:
 
-> [**Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs**]() <br> > [Shi Liu](https://lalbj.github.io/)<sup>1</sup>,
+> [**Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs**](https://arxiv.org/abs/2407.21771) <br> > [Shi Liu](https://lalbj.github.io/)<sup>1</sup>,
 > [Kecheng Zheng](https://zkcys001.github.io/)<sup>1,2</sup>,
 > [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/)<sup>2</sup>,<br> > <sup>1</sup>State Key Lab of CAD\&CG, Zhejiang University,<sup>2</sup>Ant Group <br>
 
@@ -94,8 +94,16 @@ This paper is motivated by [prompt-to-prompt](https://github.com/google/prompt-t
 
 ## Citation
 
-If you find this work useful for your research, please cite [our paper]():
+If you find this work useful for your research, please cite [our paper](https://arxiv.org/abs/2407.21771):
 
 ```
-
+@misc{liu2024payingattentionimagetrainingfree,
+      title={Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs}, 
+      author={Shi Liu and Kecheng Zheng and Wei Chen},
+      year={2024},
+      eprint={2407.21771},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.21771}, 
+}
 ```
