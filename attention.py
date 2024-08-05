@@ -74,7 +74,7 @@ def llama_new_forward(
             attn_weights, torch.tensor(torch.finfo(attn_weights.dtype).min)
         )
 
-    # upcast attention to fp32
+    ### PAI's modification
     if hasattr(self, "use_attn"):
         use_attn = self.use_attn
         img_start_idx = self.img_start_idx
@@ -92,6 +92,7 @@ def llama_new_forward(
             attn_weights[:, :, -1, img_start_idx:img_end_idx].abs() * self.alpha
             + attn_weights[:, :, -1, img_start_idx:img_end_idx]
         )
+    ### PAI's modification
 
     attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(
         query_states.dtype
