@@ -492,10 +492,3 @@ if __name__ == '__main__':
     
     if args.save_path:
         save_hallucinated_words(args.save_path, cap_dict)
-
-
-# CUDA_VISIBLE_DEVICES=5 python chair.py \
-# --cap_file ./log/llava-1.5/ours-update-aw-s_0.0-t_0-num_can_0-p_0.0.jsonl \
-# --image_id_key image_id --caption_key caption \
-# --coco_path /root/autodl-tmp/coco/annotations \
-# --save_path ./log/ours_outputs.json
