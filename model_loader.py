@@ -77,7 +77,7 @@ def load_model(model):
         return load_minigpt4_model(cfg_path)
 
     elif model == "shikra":
-        yaml_path = "./mllm/config/config.yml"  # 请替换为实际的 YAML 文件路径
+        yaml_path = "./mllm/config/config.yml" 
         return load_shikra_model(yaml_path)
 
     else:
