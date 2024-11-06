@@ -97,13 +97,10 @@ This paper is motivated by [prompt-to-prompt](https://github.com/google/prompt-t
 If you find this work useful for your research, please cite [our paper](https://arxiv.org/abs/2407.21771):
 
 ```
-@misc{liu2024payingattentionimagetrainingfree,
-      title={Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs}, 
-      author={Shi Liu and Kecheng Zheng and Wei Chen},
-      year={2024},
-      eprint={2407.21771},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.21771}, 
+@article{liu2024paying,
+  title={Paying more attention to image: A training-free method for alleviating hallucination in lvlms},
+  author={Liu, Shi and Zheng, Kecheng and Chen, Wei},
+  journal={arXiv preprint arXiv:2407.21771},
+  year={2024}
 }
 ```
